@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" type="image/x-icon" href="imagenes\icon.ico">
+<link rel="stylesheet" href="estilo.css">
+
+
+<div class="envio">
+<fieldset>
+
+<form action="/action_page.php" style="text-align: left; font-size: 30px;" >
+<legend style="size: 25px; color: aliceblue;"> DATOS PERSONALES </legend><br><br>      
+
+<!-- nombre-->
+<label for="fname" style="color: aliceblue;"> nonbre completo: </label> <br>
+<input type="text" id="fname"><br><br>
+
+<!--correo-->
+<label for="correo" style="color: aliceblue;"> correo electronico:</label><br>
+<input type="text" id="correo"><br><br>
+
+<!--seleccion de genero-->
+<label for="genero" style="color: aliceblue;"> genero: </label><br>
+<select name="genero" id="genero">
+<option value="Hombre">Hombre</option>
+<option value="Mujer">Mujer</option>
+<option value="Prefiero no decirlo">Prefiero no decirlo</option>
+</select><br>
+
+
+<!--seleccion de region-->
+<label for="region" style="color: aliceblue;"> donde vives?</label><br>
+<select name="region" id="region">
+<option value="Aguascalientes">Aguascalientes</option>
+<option value="Baja California">Baja California</option>
+<option value="Baja California Sur">Baja California Sur</option>
+<option value="Campeche">Campeche</option>
+<option value="Coahuila">Coahuila</option>
+<option value="Colima">Colima</option>
+<option value="Chiapas">Chiapas</option>
+<option value="Chihuahua">Chihuahua</option>
+<option value="Durango">Durango</option>
+<option value="Distrito Federal">Distrito Federal</option>
+<option value="Guanajuato">Guanajuato</option>
+<option value="Guerrero"Guerrero></option>
+<option value="Hidalgo">Hidalgo</option>
+<option value="Jalisco">Jalisco</option>
+<option value="México">México</option>
+<option value="Michoacán">Michoacán</option>
+<option value="Morelos">Morelos</option>
+<option value="Nayarit">Nayarit</option>
+<option value="Nuevo León">Nuevo León</option>
+<option value="Oaxaca">Oaxaca</option>
+<option value="Puebla">Puebla</option>
+<option value="Querétaro">Querétaro</option>
+<option value="Quintana Roo">Quintana Roo</option>
+<option value="San Luis Potosí">San Luis Potosí</option>
+<option value="Sinaloa">Sinaloa</option>
+<option value="Sonora">Sonora</option>
+<option value="Tabasco">Tabasco</option>
+<option value="Tamaulipas">Tamaulipas</option>
+<option value="Tlaxcala">Tlaxcala</option>
+<option value="Veracruz">Veracruz</option>
+<option value="Yucatán">Yucatán</option>
+<option value="Zacatecas">Zacatecas</option>
+</select><br><br>
+<!--termina seleccion de region--> 
+
+
+
+<label for="nacimiento" style="color: aliceblue;"> Donde naciste?</label><br>
+
+<input list="nacimiento">
+<datalist id="nacimiento">
+<option value="Mazatlan">Mazatlan</option>
+<option value="Culiacan">Culiacan</option>
+<option value="Los mochis">Los Mochis</option>
+<option value="Badiraguato">Badiraguato</option>
+<option value="Ahome">Ahome</option>
+<br>
+</datalist><br><br>
+
+
+<button type="button" onclick="alert('tus datos fueron enviados correctmente')">enviar</button>
+</fieldset>
+</div>
+
+<script>
+
+</script>
+
+
+</form>
+

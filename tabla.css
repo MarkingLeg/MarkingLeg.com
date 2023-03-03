@@ -1,0 +1,67 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #808080;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+li a:hover {
+    background-color: #FFFF;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: khaki; text-align: center;
+}
+
+body{
+    
+    background-image: url("imagenes\\gokufondonegro.jpg");
+    background-size: 100%;
+    
+}
+
+table, td, th, tr{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-spacing: 1px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr :hover{
+    background-color: antiquewhite;
+}
+
+th{
+    background-color: blue;
+}
+
+td a:hover{
+background-color: bisque;
+}
+a{
+color: black;
+
+}
+tr:nth-child(even) {
+    background-color: lightskyblue;
+  }
+tr:nth-child(odd){
+    background-color: lightseagreen;
+}
